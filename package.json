@@ -1,0 +1,25 @@
+{
+  "name": "test-alpaka",
+  "version": "1.0.0",
+  "description": "job apply test-work",
+  "main": "index.js",
+  "scripts": {
+    "test": "test alpaka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mav-design/alpaka-test.git"
+  },
+  "keywords": [
+    "test-work"
+  ],
+  "author": "MAV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mav-design/alpaka-test/issues"
+  },
+  "homepage": "https://github.com/mav-design/alpaka-test#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
