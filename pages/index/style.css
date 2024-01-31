@@ -225,7 +225,7 @@ li::marker {
   }
 }
 
-@media (width>= 376px) and (width<= 769px) {
+@media (width<= 769px) {
   ::-webkit-scrollbar {
     width: 0;
   }
@@ -319,5 +319,26 @@ li::marker {
 
   .burger_checkbox:not(:checked) ~ .navigation {
     animation: translateBurgerBack 1s forwards;
+  }
+  @media (width<= 376px) {
+    .phone-number__number {
+      display: none;
+    }
+    .anckors-list__anckor,
+    .anckors-list__anckor--hover,
+    .anckors-list__anckor--active {
+      width: 320px;
+      font-size: 18px;
+      padding: 20px 0px 20px 20px;
+    }
+    .down-extended-list__anckor,
+    .down-extended-list__anckor--hover,
+    .rigth-extended-list__anckor,
+    .rigth-extended-list__anckor--hover,
+    .down-extended-list__anckor--active {
+      font-size: 16px;
+      width: 320px;
+      padding: 20px 0px 20px 20px;
+    }
   }
 }
