@@ -4,15 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alpaka разработка. верстка. веб</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <header class="header">
       <p class="logo">h.M</p>
+
       <nav class="navigation">
         <ul class="anckors-list">
           <li><a href="#" class="anckors-list__anckor">Главная</a></li>
           <li>
             <a class="anckors-list__anckor">Основное меню</a>
+            <svg
+              class="anckors-list__triangle--up"
+              xmlns="http://www.w3.org/2000/svg"
+              width="9"
+              height="6"
+              viewBox="0 0 9 6"
+              fill="none"
+            >
+              <path d="M4.5359 0L8.5359 6H0.535904L4.5359 0Z" fill="#F2994A" />
+            </svg>
             <ul class="down-extended-list">
               <li>
                 <a href="#" class="down-extended-list__anckor"
@@ -32,7 +45,19 @@
               <li>
                 <a href="#" class="down-extended-list__anckor"
                   >Есть предложение по работе с клиентами</a
+                ><svg
+                  class="down-extended-list__triangle--rigth"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7"
+                  height="9"
+                  viewBox="0 0 7 9"
+                  fill="none"
                 >
+                  <path
+                    d="M6.45999 4.53589L0.459991 8.53589L0.459991 0.535888L6.45999 4.53589Z"
+                    fill="#F2994A"
+                  />
+                </svg>
                 <ul class="rigth-extended-list">
                   <li>
                     <a href="#" class="rigth-extended-list__anckor"
@@ -53,6 +78,16 @@
         </ul>
       </nav>
       <a href="tel:+13212223333">+1 (321) 222 - 33 -33</a>
+      <svg
+        class="burger"
+        width="22"
+        height="14"
+        viewBox="0 0 22 14"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 1H22M0 7H22M0 13H22" stroke="#F2994A" stroke-width="2" />
+      </svg>
     </header>
     <main class="main"></main>
   </body>
