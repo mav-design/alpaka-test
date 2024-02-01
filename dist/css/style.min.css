@@ -303,29 +303,6 @@
     align-items: center;
     justify-content: space-between;
   }
-.logo {
-    min-width: 48px;
-    min-height: 48px;
-  
-    border: 4px solid #2d9cdb;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-  }
-  .logo::first-letter {
-    font-weight: 600;
-  }
-
-.main {
-    width: 100%;
-    height: calc(100vh - 80px);
-    background: top/cover url( "img/alpaca-bg.webp");
-  }
-.phone-number {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-  }
 * {
     margin: 0;
     padding: 0;
@@ -348,6 +325,29 @@
   }
   li::marker {
     content: '';
+  }
+.logo {
+    min-width: 48px;
+    min-height: 48px;
+  
+    border: 4px solid #2d9cdb;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+  }
+  .logo::first-letter {
+    font-weight: 600;
+  }
+
+.main {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: top/cover url( "img/alpaca-bg.webp");
+  }
+.phone-number {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
   }
 
 .burger_checkbox {
