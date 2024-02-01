@@ -1,0 +1,12 @@
+.logo {
+    min-width: 48px;
+    min-height: 48px;
+  
+    border: 4px solid #2d9cdb;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+  }
+  .logo::first-letter {
+    font-weight: 600;
+  }
