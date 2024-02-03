@@ -1,3 +1,6 @@
+
+# Деплой в ветке deploy
+# Настройка Галпа в ветке gulpSettings
 [Макет на фигме](https://www.figma.com/file/a8Z21nanfYQ7JnYItyhcns/Untitled)
 ### Задача
 ### 1.Десктоп
