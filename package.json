@@ -2,7 +2,8 @@
   "name": "test-alpaka",
   "version": "1.0.0",
   "description": "job apply test-work",
-  "main": "index.js",
+  "main": "gulpfile.js",
+  "type": "module",
   "scripts": {
     "test": "test alpaka"
   },
@@ -20,6 +21,27 @@
   },
   "homepage": "https://github.com/mav-design/alpaka-test#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "browser-sync": "^3.0.2",
+    "del": "^7.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-fonter": "^0.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-version-number": "^0.2.4",
+    "gulp-webp": "^5.0.0",
+    "gulp-webp-html-nosvg": "^1.1.1",
+    "webp-converter": "^2.2.3"
+  },
+  "dependencies": {
+    "gulp-bem": "^1.0.2",
+    "gulp-concat": "^2.6.1"
   }
 }
